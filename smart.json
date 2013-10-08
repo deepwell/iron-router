@@ -1,8 +1,8 @@
 {
   "name": "iron-router-dev",
   "description": "Routing specifically designed for Meteor. DEVELOPMENT branch!",
-  "homepage": "https://github.com/EventedMind/iron-router",
+  "homepage": "https://github.com/deepwell/iron-router",
   "author": "Chris Mather (https://github.com/cmather), Tom Coleman (https://github.com/tmeasday)",
   "version": "0.6.0dev",
-  "git": "https://github.com/EventedMind/iron-router.git"
+  "git": "https://github.com/deepwell/iron-router.git"
 }
