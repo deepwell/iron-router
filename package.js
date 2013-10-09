@@ -50,7 +50,7 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
-  api.use('iron-router', ['client', 'server']);
+  api.use('iron-router-dev', ['client', 'server']);
   api.use('tinytest', ['client', 'server']);
   api.use('test-helpers', ['client', 'server']);
   api.use('reactive-dict', ['client', 'server']);
@@ -64,5 +64,5 @@ Package.on_test(function (api) {
 
   api.add_files('test/client/templates.html', 'client');
   api.add_files('test/client/router.js', 'client');
-  api.add_files('test/client/route_controller.js', 'client');  
+  api.add_files('test/client/route_controller.js', 'client');
 });
